@@ -36,3 +36,13 @@ python3 minimum_operations.py < input.txt
 2
 -1
 ```
+
+## Tests
+
+Run the unit tests with:
+
+```bash
+python3 -m unittest discover -s tests -v
+```
+
+The test suite covers the sample, an already-zero array, positive total sums, feasible negative values, and impossible cases. Additional inputs are in `tests/sample_input.txt` and `tests/edge_cases_input.txt`.
